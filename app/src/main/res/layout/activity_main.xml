@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/buttons_layout"
+        android:paddingRight="20dp"
         android:layout_marginBottom="0dp">
 
         <TextView
@@ -49,8 +50,8 @@
                 />
 
             <TextView
-                android:id="@+id/sign"
-                android:text="+/-"
+                android:id="@+id/operation_AC"
+                android:text="AC"
                 android:background="@drawable/custom_upper"
                 style="@style/Button_main"
                 />
@@ -177,15 +178,18 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/operation_AC"
-                android:text="AC"
-                style="@style/Button_main"
-                />
-
-            <TextView
                 android:id="@+id/num_0"
                 android:text="0"
-                style="@style/Button_main"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:background="@drawable/custom_round"
+                android:fontFamily="sans-serif"
+                android:textFontWeight="400"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:textSize="30dp"
                 />
 
             <TextView
